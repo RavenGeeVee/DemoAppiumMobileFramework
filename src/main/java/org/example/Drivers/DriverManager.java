@@ -4,7 +4,7 @@ import io.appium.java_client.AppiumDriver;
 
 public class DriverManager {
 
-    private static ThreadLocal<AppiumDriver> driverThreadLocal = new ThreadLocal<>();
+    private static final ThreadLocal<AppiumDriver> driverThreadLocal = new ThreadLocal<>();
 
     public static void initializeDriver(String platform) {
         AppiumDriver appiumDriver =
