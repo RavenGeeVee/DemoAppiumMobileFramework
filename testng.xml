@@ -12,7 +12,7 @@
         <parameter name="password" value="secret_sauce"/>
 
         <classes>
-            <class name="tests.LoginTests"/>
+            <class name="Tests.LoginTests"/>
         </classes>
 
     </test>

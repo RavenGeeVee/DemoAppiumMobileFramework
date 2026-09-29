@@ -1,6 +1,6 @@
-package tests;
+package Tests;
 
-import base.BaseTest;
+import Base.BaseTest;
 import org.testng.annotations.Test;
 
 public class LaunchTests extends BaseTest {

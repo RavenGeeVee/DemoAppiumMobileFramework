@@ -42,7 +42,7 @@
 
                 <executions>
 
-                    <!-- Attach JaCoCo agent before tests -->
+                    <!-- Attach JaCoCo agent before Tests -->
                     <execution>
                         <id>prepare-agent</id>
                         <goals>
@@ -50,7 +50,7 @@
                         </goals>
                     </execution>
 
-                    <!-- Generate report after tests -->
+                    <!-- Generate report after Tests -->
                     <execution>
                         <id>report</id>
                         <phase>verify</phase>

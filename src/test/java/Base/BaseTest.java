@@ -1,4 +1,4 @@
-package base;
+package Base;
 
 import org.example.Drivers.DriverManager;
 import org.testng.annotations.AfterMethod;

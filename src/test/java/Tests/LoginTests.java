@@ -1,6 +1,6 @@
-package tests;
+package Tests;
 
-import base.BaseTest;
+import Base.BaseTest;
 import org.example.Screens.Android.LoginScreen;
 import org.testng.Assert;
 import org.testng.annotations.Test;
